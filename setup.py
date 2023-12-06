@@ -20,15 +20,15 @@ setup(name='pylogsentiment',
               'pylogsentiment = pylogsentiment.pylogsentiment:main'
           ],
       },
-      install_requires=[
-          'nerlogparser>=X.X.X',
-          'scikit-learn>=0.24.2',
-          'keras>=2.6.0',
-          'keras-metrics>=0.0.4',
-          'imbalanced-learn>=0.8.1',
-          'pyparsing>=2.4.6',
-          'tensorflow==1.4.1',
-          'h5py>=3.1.0'
-      ],
+     install_requires=[
+    'nerlogparser>=X.X.X,<2.0.0',
+    'scikit-learn>=0.24.2',
+    'keras>=2.6.0',
+    'keras-metrics>=0.0.4',
+    'imbalanced-learn>=0.8.1',
+    'pyparsing>=2.4.6',
+    'tensorflow>=2.8.0',
+    'h5py>=3.1.0'
+],
       include_package_data=True,
       zip_safe=False)
