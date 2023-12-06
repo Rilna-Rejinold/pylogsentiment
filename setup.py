@@ -27,7 +27,7 @@ setup(name='pylogsentiment',
           'keras-metrics>=0.0.4',
           'imbalanced-learn>=0.8.1',
           'pyparsing>=2.4.6',
-          'tensorflow>=2.8.0',
+          'tensorflow==1.4.1',
           'h5py>=3.1.0'
       ],
       include_package_data=True,
